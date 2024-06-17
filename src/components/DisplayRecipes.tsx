@@ -29,9 +29,9 @@ const DisplayRecipes: React.FC<IProps> = ({recipes}) => {
 									{rec.recipe.dishType.map((dt, i) => (
 										<span key={i}>{dt}</span>
 									))}
-									<h4 style={{ margin: 5 }}>
+									<span style={{ margin: 5 }}>
 										Ingredients
-									</h4>
+									</span>
 								</Card.Text>
 								<ul>
 									{rec.recipe.ingredients.map((ing, i) => (
